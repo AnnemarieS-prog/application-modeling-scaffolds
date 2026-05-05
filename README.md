@@ -115,25 +115,11 @@ Use this as a tool when it adds value, and ignore it when it doesn’t.
 
 ---
 
-## Areas to Explore
+## Exploration Roadmap
 
-This repository is intentionally minimal. The current scaffolds focus on access control, ownership, and workflow.
+See [EXPLORATION.md](EXPLORATION.md) for directions under consideration.
 
-Potential areas for future scaffolds or extensions:
-
-- validation and data consistency rules
-- cross-object relationships and constraints
-- multi-tenant and boundary modelling
-- audit and change tracking patterns
-- bulk operations beyond import/export
-- synchronization and state propagation
-- conflict resolution and concurrency
-- lifecycle patterns beyond simple workflows
-- role modelling and composition strategies
-
-These are not commitments, but directions that may benefit from similar structured scaffolds.
-
---- 
+---
 
 ## Development Notes
 
