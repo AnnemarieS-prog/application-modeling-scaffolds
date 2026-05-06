@@ -2,7 +2,7 @@
 
 ## Definition
 
-Ownership defines who is currently responsible for an object.
+Ownership is an object relationship that defines who is currently responsible for an object. Responsibility and accountability are what distinguish it from other object relationships such as Editor or Viewer.
 
 Ownership is separate from creation. The creator records who originally created an object. The owner records who currently has responsibility for it.
 
@@ -13,7 +13,7 @@ Ownership is separate from creation. The creator records who originally created 
 | Creator | User or system that originally created the object | No | Audit/history |
 | Owner | User, team, tenant, or system currently responsible | Yes | `own` rights |
 | Assignee | User currently handling the object operationally | Optional | Work distribution |
-| Team/unit owner | Group responsible for the object | Optional | Organization-level access |
+| Team/unit owner | Ownership held by a group or unit rather than an individual; carries the same responsibility semantics as individual ownership | Optional | Shared responsibility |
 
 ## Core Rule
 
